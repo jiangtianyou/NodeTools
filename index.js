@@ -1,6 +1,6 @@
 var jwt = require('jsonwebtoken'),
     option = {algorithm: 'HS512'},
-    secret = new Buffer('f8b2e52038588f89b67cde581c0f9eb5','base64');
+    secret = Buffer.from('f8b2e52038588f89b67cde581c0f9eb5','base64');
 if (process.argv.length < 3) {
     console.log('参数错误');
     process.exit();

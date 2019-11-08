@@ -12,7 +12,7 @@ if (input.indexOf(";") === -1) {
     try {
         var verify = jwt.verify(input, secret, option);
         var strings = verify.sub.split(';');
-        console.log("memberId: "+strings[0],"siteId: "+strings[1])
+        console.log("memberId: "+strings[0],"siteId: "+strings[1]);
         process.exit();
     }catch (e) {
         console.log('解析token错误');
@@ -27,4 +27,4 @@ var payload = {
     iat: 1516239022
 };
 var token = jwt.sign(payload, secret, option);
-console.log(token)
+console.log(token);

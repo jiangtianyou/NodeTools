@@ -1,6 +1,6 @@
 {
   "name": "my-token-gen",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "pub": "git add -A && git commit -m '修改' && npm version patch && npm publish",
     "start": "node index.js"

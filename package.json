@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "scripts": {
     "pub": "git add -A && git commit -m '修改' && npm version patch && npm publish",
-    "start": "node index.js"
+    "push":"git add -A && git commit -m '修改' && git push -u origin master"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1"

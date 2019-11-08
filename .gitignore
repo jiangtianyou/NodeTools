@@ -2,3 +2,4 @@
 /.idea/workspace.xml
 /node_modules
 node_demo.iml
+package-lock.json

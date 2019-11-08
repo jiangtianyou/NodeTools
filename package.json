@@ -1,0 +1,14 @@
+{
+  "name": "my-token-gen",
+  "version": "1.0.1",
+  "scripts": {
+    "patch": "npm version patch",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "bin": {
+    "jwt": "./bin/index.js"
+  }
+}

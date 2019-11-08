@@ -2,7 +2,7 @@
   "name": "my-token-gen",
   "version": "1.0.3",
   "scripts": {
-    "patch": "npm version patch",
+    "pub": "git add -A && git commit -m '修改' && npm version patch && npm publish",
     "start": "node index.js"
   },
   "dependencies": {

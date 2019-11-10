@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "scripts": {
     "pub": "git add -A && git commit -m modify && npm version patch && npm publish",
-    "push":"git add -A && git commit -m modify && git push -u origin master",
+    "push": "git add -A && git commit -m modify && git push -u origin master",
     "update-ignore": "git rm -r --cached . && git add ."
   },
   "dependencies": {
